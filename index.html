@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دارك للعقارات</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container header-content">
+        <div class="logo">دارك <span>.</span></div>
+        <nav id="navList">
+          <ul class="list">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#estate">العقارات </a></li>
+            <li><a href="#about"> من نحن</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#prices">الأسعار</a></li>
+            <li><a href="#faq">الأسئلة</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+          </ul>
+        </nav>
+        <button class="toggle-btn" id="meunBtn" aria-label="toggle meun button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- home -->
+      <section id="home">
+        <div class="container d-flex">
+          <div class="home-content">
+            <h1 class="home-title">
+              لاقي بيت أحلامك <span class="accent">بسهولة</span>
+            </h1>
+            <p>
+              شقق وفيلات ومكاتب في أفضل الأماكن وبأسعار تناسبك، مع فريق بيساعدك
+              من أول معاينة لحد <span class="bold"> استلام المفتاح</span> .
+            </p>
+            <div class="home-actions">
+              <a href="#estate" class="btn btn-primary">تصفح العقارات</a>
+              <a href="#contact" class="btn btn-outline">احجز معاينة</a>
+            </div>
+          </div>
+          <div class="home-image" aria-hidden>
+            <span class="img">🏠</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- banner -->
+      <section class="banner">
+        <div class="container d-grid-4">
+          <div class="col">
+            <p class="title">+1200</p>
+            <p class="subtitle">عقار متاح</p>
+          </div>
+          <div class="col">
+            <p class="title">+850</p>
+            <p class="subtitle">عميل سعيد</p>
+          </div>
+          <div class="col">
+            <p class="title">15</p>
+            <p class="subtitle">سنة خبرة</p>
+          </div>
+          <div class="col">
+            <p class="title">8</p>
+            <p class="subtitle">محافظات</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- العقارات -->
+      <section id="estate" class="section-padding">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">أحدث العقارات</h2>
+            <p class="section-desc">
+              اختار من مجموعة عقارات متنوعة تمت معاينتها ومراجعة أوراقها.
+            </p>
+          </div>
+          <div class="estate-content d-grid-3">
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/683-600x400.jpg" alt="" />
+                <span class="bedge primary">للبيع</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">شقة في التجمع الخامس</h3>
+                <p class="place">📍 القاهرة الجديدة</p>
+                <ul class="list">
+                  <li class="information">3 غرف</li>
+                  <li class="information">2 حمام</li>
+                  <li class="information">150 م²</li>
+                </ul>
+                <p class="card-desc">
+                  تشطيب سوبر لوكس، دور ثالث بأسانسير، قريبة من الجامعة
+                  الأمريكية.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">3,500,000 ج.م</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/74-600x400.jpg" alt="" />
+                <span class="bedge accent">للإيجار </span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">فيلا في الشيخ زايد</h3>
+                <p class="place">📍 الجيزة</p>
+                <ul class="list">
+                  <li class="information">5 غرف</li>
+                  <li class="information">4 حمام</li>
+                  <li class="information">200 م²</li>
+                </ul>
+                <p class="card-desc">
+                  حديقة خاصة وحمام سباحة، داخل كمبوند بأمن 24 ساعة.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">60,000 ج.م / شهر</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/659-600x400.jpg" alt="" />
+                <span class="bedge primary">للبيع</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">شاليه في الساحل الشمالي</h3>
+                <p class="place">📍 مطروح</p>
+                <ul class="list">
+                  <li class="information">2 غرف</li>
+                  <li class="information">1 حمام</li>
+                  <li class="information">90 م²</li>
+                </ul>
+                <p class="card-desc">
+                  صف ثاني على البحر، مفروش بالكامل وجاهز للاستلام.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">2,200,000 ج.م</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/20-600x400.jpg" alt="" />
+                <span class="bedge accent">للإيجار </span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">مكتب في العاصمة الإدارية</h3>
+                <p class="place">📍 حي المال والأعمال</p>
+                <ul class="list">
+                  <li class="information">4 غرف</li>
+                  <li class="information">2 حمام</li>
+                  <li class="information">120 م²</li>
+                </ul>
+                <p class="card-desc">
+                  مكتب مجهز بالتكييفات والإنترنت، مناسب للشركات الناشئة.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">35,000 ج.م / شهر</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/161-600x400.jpg" alt="" />
+                <span class="bedge primary">للبيع</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">دوبلكس في 6 أكتوبر</h3>
+                <p class="place">📍 الجيزة</p>
+                <ul class="list">
+                  <li class="information">4 غرف</li>
+                  <li class="information">3 حمام</li>
+                  <li class="information">260 م²</li>
+                </ul>
+                <p class="card-desc">
+                  دورين مع روف خاص، نصف تشطيب، تقسيط على 5 سنين.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">4,800,000 ج.م</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+            <article class="card estate-card">
+              <div class="card-img">
+                <img src="images/398-600x400.jpg" alt="" />
+                <span class="bedge accent">للإيجار </span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">ستوديو في المعادي</h3>
+                <p class="place">📍 القاهرة</p>
+                <ul class="list">
+                  <li class="information">1 غرفة</li>
+                  <li class="information">1 حمام</li>
+                  <li class="information">55 م²</li>
+                </ul>
+                <p class="card-desc">
+                  مفروش بالكامل، قريب من المترو، مناسب للطلبة والموظفين.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="price">12,000 ج.م / شهر</p>
+                <button class="btn btn-accent">التفاصيل ←</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about" class="section-padding">
+        <div class="container about-content d-flex">
+          <div class="about-img">
+            <img src="images/134-700x500.jpg" alt="" />
+            <p>فريقنا في مقر الشركة بالقاهرة الجديدة</p>
+          </div>
+          <div class="about-content">
+            <div class="section-heading justify-start">
+              <h2 class="section-title">من نحن</h2>
+            </div>
+            <p>
+              دارك شركة تسويق عقاري بدأت سنة 2011، وهدفنا إن تجربة شراء أو إيجار
+              عقار تبقى <strong>واضحة وآمنة</strong> من غير مفاجآت.
+            </p>
+            <p>
+              بنراجع أوراق كل عقار قبل ما نعرضه، وبنحدد السعر بناءً على أسعار
+              السوق الفعلية.
+            </p>
+            <h3>ليه تختارنا؟</h3>
+            <ul class="check-list">
+              <li>معاينة مجانية لأي عقار</li>
+              <li>مراجعة قانونية للعقود</li>
+              <li>أنظمة تقسيط مرنة</li>
+              <li>متابعة بعد البيع</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section id="services" class="section-padding">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">خدماتنا</h2>
+            <p class="section-desc">كل اللي محتاجه في مكان واحد.</p>
+          </div>
+
+          <div class="services-container d-grid-3">
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">🔑</div>
+              <h3>بيع وشراء</h3>
+              <p>بنساعدك تبيع أو تشتري عقارك بأفضل سعر.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">📝</div>
+              <h3>إيجار</h3>
+              <p>عقود إيجار آمنة ومضمونة للطرفين.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">💬</div>
+              <h3>استشارات</h3>
+              <p>فريق متخصص يجاوب على كل أسئلتك.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">📐</div>
+              <h3>تقييم عقاري</h3>
+              <p>تقييم دقيق لسعر عقارك حسب السوق.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">🏦</div>
+              <h3>تمويل عقاري</h3>
+              <p>بنوصلك بأفضل عروض البنوك والتقسيط.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon" aria-hidden="true">🛠️</div>
+              <h3>تشطيب وصيانة</h3>
+              <p>شركات تشطيب معتمدة بأسعار ثابتة.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- prices -->
+      <section class="section-padding" id="prices">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">متوسط الأسعار</h2>
+            <p class="section-desc">أسعار تقريبية للمتر حسب المنطقة.</p>
+          </div>
+
+          <!-- overflow-x: الجدول بيتحرك يمين وشمال على الموبايل -->
+          <div class="table-wrapper">
+            <table class="table">
+              <caption>
+                متوسط سعر المتر بالجنيه المصري
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">المنطقة</th>
+                  <th scope="col">شقق</th>
+                  <th scope="col">فيلات</th>
+                  <th scope="col">إيجار شهري (شقة)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">التجمع الخامس</th>
+                  <td>24,000</td>
+                  <td>45,000</td>
+                  <td>25,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">الشيخ زايد</th>
+                  <td>22,000</td>
+                  <td>42,000</td>
+                  <td>22,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">6 أكتوبر</th>
+                  <td>15,000</td>
+                  <td>28,000</td>
+                  <td>12,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">المعادي</th>
+                  <td>20,000</td>
+                  <td>38,000</td>
+                  <td>18,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">الساحل الشمالي</th>
+                  <td>30,000</td>
+                  <td>55,000</td>
+                  <td>—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section class="section-padding" id="testimonials">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">آراء عملائنا</h2>
+          </div>
+
+          <div class="testimonials-container d-grid-3">
+            <figure class="testimonial-card">
+              <blockquote>
+                اشتريت شقتي في أقل من شهر، وكل الأوراق كانت جاهزة ومراجعة.
+              </blockquote>
+              <figcaption>أحمد سمير <span>القاهرة الجديدة</span></figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                فريق محترم وصادق في الأسعار، وده أهم حاجة بالنسبة لي.
+              </blockquote>
+              <figcaption>منى عادل <span>الشيخ زايد</span></figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                أجّرت المكتب من غير ما أنزل أكتر من مرة واحدة للمعاينة.
+              </blockquote>
+              <figcaption>كريم حسن <span>العاصمة الإدارية</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- faq -->
+      <section class="section-padding" id="faq">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">الأسئلة الشائعة</h2>
+          </div>
+
+          <div class="faq">
+            <details class="open">
+              <summary>هل المعاينة بفلوس؟</summary>
+              <p>لأ، المعاينة مجانية تمامًا ومن غير أي التزام.</p>
+            </details>
+            <details>
+              <summary>إيه الأوراق المطلوبة للشراء؟</summary>
+              <p>
+                صورة البطاقة، ومقدم الحجز. وإحنا بنراجع عقد الملكية والتسلسل مع
+                المحامي.
+              </p>
+            </details>
+            <details>
+              <summary>هل فيه تقسيط؟</summary>
+              <p>أيوه، فيه أنظمة تقسيط لحد 7 سنين حسب العقار والمطور.</p>
+            </details>
+            <details>
+              <summary>عمولة الشركة كام؟</summary>
+              <p>2.5% في البيع، وشهر واحد في الإيجار السنوي.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="section-padding" id="contact">
+        <div class="container">
+          <div class="section-heading justify-center">
+            <h2 class="section-title">تواصل معنا</h2>
+            <p class="section-desc">املأ البيانات وهنكلمك في خلال 24 ساعة.</p>
+          </div>
+
+          <form class="form" action="#" method="post">
+            <div class="field">
+              <label for="name"
+                >الاسم <span class="required" aria-hidden="true">*</span></label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="مثال: محمد أحمد"
+                minlength="3"
+                maxlength="40"
+                autocomplete="name"
+                required=""
+              />
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email"
+                  >البريد الإلكتروني
+                  <span class="required" aria-hidden="true">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="name@example.com"
+                  autocomplete="email"
+                  required=""
+                />
+              </div>
+
+              <div class="field">
+                <label for="phone"
+                  >رقم الموبايل
+                  <span class="required" aria-hidden="true">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="01012345678"
+                  pattern="01[0125][0-9]{8}"
+                  maxlength="11"
+                  inputmode="numeric"
+                  autocomplete="tel"
+                  title="رقم مصري من 11 رقم يبدأ بـ 010 أو 011 أو 012 أو 015"
+                  required=""
+                />
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="type"
+                  >نوع العقار
+                  <span class="required" aria-hidden="true">*</span></label
+                >
+                <select id="type" name="type" required="">
+                  <option value="">اختر النوع</option>
+                  <option value="apartment">شقة</option>
+                  <option value="villa">فيلا</option>
+                  <option value="chalet">شاليه</option>
+                  <option value="office">مكتب</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="budget">الميزانية (ج.م)</label>
+                <input
+                  type="number"
+                  id="budget"
+                  name="budget"
+                  placeholder="مثال: 2000000"
+                  min="5000"
+                  step="1000"
+                />
+              </div>
+            </div>
+
+            <fieldset class="field">
+              <legend>
+                عايز إيه؟ <span class="required" aria-hidden="true">*</span>
+              </legend>
+              <label class="choice"
+                ><input  type="radio" name="purpose" value="buy" required="" />
+                شراء</label
+              >
+              <label class="choice"
+                ><input type="radio" name="purpose" value="rent" /> إيجار</label
+              >
+              <label class="choice"
+                ><input type="radio" name="purpose" value="sell" /> بيع
+                عقاري</label
+              >
+            </fieldset>
+
+            <div class="field">
+              <label for="message"
+                >رسالتك
+                <span class="required" aria-hidden="true">*</span></label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="اكتب تفاصيل طلبك..."
+                minlength="10"
+                maxlength="500"
+                required=""
+              ></textarea>
+            </div>
+
+            <label class="choice">
+              <input type="checkbox" name="agree" required="" />
+              موافق على التواصل معي بخصوص طلبي
+            </label>
+
+            <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="section-padding">
+      <div class="container footer-content d-grid-4">
+        <div class="col col-2">
+          <h4>دارك للعقارات</h4>
+          <p>بنساعدك تلاقي المكان المناسب بالسعر المناسب من سنة 2011.</p>
+        </div>
+        <div class="col">
+          <h4>روابط سريعة</h4>
+          <ul class="list">
+            <li><a href="">العقارات</a></li>
+            <li><a href="">خدماتنا</a></li>
+            <li><a href="">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>بيانات التواصل</h4>
+          <ul class="list">
+            <li><p>90 شارع التسعين، القاهرة الجديدة</p></li>
+            <li><a href="tel:+201000000000">+20 100 000 0000</a></li>
+            <li>
+              <a href="mailto:info@darak.example">info@darak.example</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <div class="container">
+          <p>© 2026 دارك للعقارات - جميع الحقوق محفوظة</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
